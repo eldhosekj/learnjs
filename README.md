@@ -20,7 +20,32 @@
  myVar++;
  OUTPUT:88
 
+* compund assignment with augmented addition
+
+var a=3;
+a+=12
+OUTPUT=15
+*compund assignment with augmented subtraction
+var a=11;
+a-=6
+OUTPUT=5
+*compund assignment with augmented MULTIPLICATION
+var a=1;
+a-=6
+OUTPUT=5
+ *compund assignment with augmented division
+var a=50;
+a-=5
+OUTPUT=10
+*Decraring string variables
+var firstName="allen";
+var lastName="Turling";
+
  *Adding quotation mark inside the quotes
-
-var myStr="i am a \"double quoted\" string inside \" double qu
-
+var myStr="i am a \"double quoted\" string inside \" double quotes\"
+console.log(myStr)
+OUTPUT:i am a "double quoted" string inside " double quotes"
+*Concatenating strings with plus operators
+ var ourStr="i come first." +"i come second.";
+ var myStr="this is the start."+ "thgis is the end"
+ console.log(myStr);
