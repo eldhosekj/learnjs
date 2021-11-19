@@ -82,3 +82,10 @@ console.log(wordBlanks("dog","big","ran", "quickly"));
 
 
 OUTPUT:the big dog ran to the store quickly
+*NESTED ARRAY
+var ourArray=[["the universe",42], ["everything",1010101]];
+*acces array data with index
+ar myArray=[50,60,70];
+var myData=myArray[0];
+console.log(myData)
+OUTPUT: 50
