@@ -49,3 +49,8 @@ OUTPUT:i am a "double quoted" string inside " double quotes"
  var ourStr="i come first." +"i come second.";
  var myStr="this is the start."+ "thgis is the end"
  console.log(myStr);
+ *constructing variables using variable
+ var myName="eldose";
+var myStr="myname is" + myName + "and i am well";
+console.log(myStr);
+OUTPUT:myname iseldoseand i am well
