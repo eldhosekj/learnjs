@@ -72,3 +72,13 @@ var lastName="Lovelace";
 firstLetterOfLastName=lastName[lastName.length -1];
 console.log(firstLetterOfLastName)
 OUTPUT:E
+*WORD BLANK
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
+    var result="";
+    result+="the" + myAdjective + myNoun + myVerb + "to the store" + myAdverb;
+    return result;
+}
+console.log(wordBlanks("dog","big","ran", "quickly"));
+
+
+OUTPUT:the big dog ran to the store quickly
