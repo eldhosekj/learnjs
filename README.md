@@ -66,3 +66,9 @@ var lastName="lovelace";
 lastNameLength=lastName.length;
 console.log(lastNameLength)
 OUTPUT:8
+*finding last chracter in a string
+var firstLetterOfLastName="";
+var lastName="Lovelace";
+firstLetterOfLastName=lastName[lastName.length -1];
+console.log(firstLetterOfLastName)
+OUTPUT:E
