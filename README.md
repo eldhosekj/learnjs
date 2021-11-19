@@ -54,3 +54,15 @@ OUTPUT:i am a "double quoted" string inside " double quotes"
 var myStr="myname is" + myName + "and i am well";
 console.log(myStr);
 OUTPUT:myname iseldoseand i am well
+*appending variable to string
+var someAdjective="worthwhile";
+var myStr="learning nto code is";
+var appendStr = myStr += someAdjective;
+console.log(appendStr)
+OUTPUT:learning nto code isworthwhile
+*finding length of the string
+var lastNameLength=0;
+var lastName="lovelace";
+lastNameLength=lastName.length;
+console.log(lastNameLength)
+OUTPUT:8
