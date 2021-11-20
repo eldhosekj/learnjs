@@ -110,4 +110,9 @@ OUTPUT:
 ['dog', 3]
 ['dFDGDFg', 30]
 length: 4
+*manipulating array with pop(removing last element in the array)
+var myArray =[["john",23], ["cat",2]];
+var removedFromMyArray=myArray.pop();
+console.log(myArray)
+OUTPUT:['john', 23]
 *
