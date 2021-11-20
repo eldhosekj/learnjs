@@ -223,3 +223,34 @@ Lin #5: [1,2,3,4,5,6]
 Lin #9: [2,3,4,5,6]
 27_standinline.js:14 1
 27_standinline.js:15 After: [2,3,4,5,6]
+
+*IF statement:
+ function ourTrueOrFalse(x) {
+    if (x) {
+        return "yes, it is true";
+  }
+    return "no its not true";
+ }
+
+
+ function trueOrFalse(hi) {
+ if (hi) {
+    return "yes that was true";
+ }
+ return "no that was false";
+}
+ console.log(trueOrFalse(true));
+output:yes that was true
+ 
+ *Equality operator:
+ function testStrict(val){
+    if(val===7){
+        return "Equal";
+    }
+    return "Not equal";
+}
+testStrict(10);
+OUTPUT: "Not equal";
+
+
+
