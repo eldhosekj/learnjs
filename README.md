@@ -94,3 +94,8 @@ var myArray=[18,64,99];
 myArray[0]=45;
 console.log(myArray)
 OUTPUT: 45, 64, 99
+*access multi dimentional array with index
+var myArray =[[1,2,2],[4,5,6],[7,8,9]];
+var myData=myArray[2][1];// selecting second array with data in the first index
+console.log(myData)
+OUTPUT:8
