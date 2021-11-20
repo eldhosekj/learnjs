@@ -99,3 +99,20 @@ var myArray =[[1,2,2],[4,5,6],[7,8,9]];
 var myData=myArray[2][1];// selecting second array with data in the first index
 console.log(myData)
 OUTPUT:8
+*Manipulating array with push function:
+var myArray=[["john",23], ["cat",2]];
+myArray.push(["dog",3])
+outPut1=myArray.push(["dFDGDFg",30])
+console.log(myArray)
+OUTPUT:
+['john', 23]
+['cat', 2]
+['dog', 3]
+['dFDGDFg', 30]
+length: 4
+*manipulating array with pop(removing last element in the array)
+var myArray =[["john",23], ["cat",2]];
+var removedFromMyArray=myArray.pop();
+console.log(myArray)
+OUTPUT:['john', 23]
+*
