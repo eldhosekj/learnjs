@@ -182,3 +182,44 @@ function minusSeven(num){
 }
 console.log(minusSeven(10));
 OUTPUT:3
+ 
+*stand in  line:
+function nextInLine(arr, item)
+{
+    arr.push(item);
+    return arr.shift();
+}
+var testArr=[1,2,3,4,5];
+console.log("Before: " +  JSON.stringify(testArr));
+console.log(nextInLine(testArr,6));
+console.log("After: " + JSON.stringify(testArr));
+OUTPUT:
+Before: [1,2,3,4,5]
+27_standinline.js:8 1
+27_standinline.js:9 After: [2,3,4,5,6]
+
+
+
+//function nextInLine(arr, item)
+//{
+ //   console.log("Lin #2: " +  JSON.stringify(arr));
+ //   arr.push(item);
+ //   console.log("Lin #5: " +  JSON.stringify(arr));
+  //  arr1= arr.shift();
+  //  console.log("Lin #7: " +  JSON.stringify(arr));
+  //  arr.unshift();
+  //  console.log("Lin #9: " +  JSON.stringify(arr));
+  //  return arr1
+//}
+//var testArr=[1,2,3,4,5];
+//console.log("Before: " +  JSON.stringify(testArr));
+//console.log(nextInLine(testArr,6));
+//console.log("After: " + JSON.stringify(testArr));
+OUTPUT:
+Before: [1,2,3,4,5]
+ Lin #2: [1,2,3,4,5]
+Lin #5: [1,2,3,4,5,6]
+ Lin #7: [2,3,4,5,6]
+Lin #9: [2,3,4,5,6]
+27_standinline.js:14 1
+27_standinline.js:15 After: [2,3,4,5,6]
