@@ -89,3 +89,8 @@ ar myArray=[50,60,70];
 var myData=myArray[0];
 console.log(myData)
 OUTPUT: 50
+*modify array data with index
+var myArray=[18,64,99];
+myArray[0]=45;
+console.log(myArray)
+OUTPUT: 45, 64, 99
