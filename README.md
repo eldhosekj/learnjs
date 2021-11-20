@@ -127,3 +127,13 @@ myArray.unshift(["paul",35]);
 console.log(myArray)
 OUTPUT:['paul', 35]
        ['cat', 2]
+*Reusable code with function:
+function ourReusableFunction(){
+    console.log("hai","world");
+}
+ourReusableFunction();
+ourReusableFunction();
+ourReusableFunction();
+OUTPUT:hai world
+       hai world
+       hai world.
