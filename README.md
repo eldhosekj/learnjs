@@ -157,3 +157,13 @@ function ourFunctionWithArgs(a,b){
 }
 ourFunctionWithArgs(10,5);
 output: 5
+
+*Local scope and function:
+function myLocalScope(){
+    var myVar=5;
+    console.log(myVar);
+}
+myLocalScope();
+OUTPUT:5
+
+*
