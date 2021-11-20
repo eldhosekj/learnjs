@@ -243,14 +243,24 @@ Lin #9: [2,3,4,5,6]
 output:yes that was true
  
  *Equality operator:
- function testStrict(val){
-    if(val===7){
+ function compareEquality(a,b){
+    if(a===b){
         return "Equal";
     }
     return "Not equal";
 }
-testStrict(10);
-OUTPUT: "Not equal";
+console.log(compareEquality(10, "10"));
+OUTPUT:Not equal
+
+*Not equal operator
+function testNotEqual(val){
+    if(val !=99){
+        return "Not equal";
+    }
+    return "equal";
+}
+console.log(testNotEqual(10,));
+OUTPUT:Not equal
 
 
 
