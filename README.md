@@ -115,4 +115,8 @@ var myArray =[["john",23], ["cat",2]];
 var removedFromMyArray=myArray.pop();
 console.log(myArray)
 OUTPUT:['john', 23]
-*
+*Manipulating array with shift(removing first element in the array)
+var myArray =[["john",23], ["cat",2]];
+var removedFromMyArray=myArray.shift();
+console.log(myArray)
+OUPUT:['cat', 2]
