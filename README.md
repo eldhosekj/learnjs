@@ -120,3 +120,10 @@ var myArray =[["john",23], ["cat",2]];
 var removedFromMyArray=myArray.shift();
 console.log(myArray)
 OUPUT:['cat', 2]
+*Manipulating array with unshift:(adding elements to the begining of the array)
+var myArray =[["john",23], ["cat",2]];
+myArray.shift();
+myArray.unshift(["paul",35]);
+console.log(myArray)
+OUTPUT:['paul', 35]
+       ['cat', 2]
