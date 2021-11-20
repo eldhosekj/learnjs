@@ -45,33 +45,39 @@ var lastName="Turling";
 var myStr="i am a \"double quoted\" string inside \" double quotes\"
 console.log(myStr)
 OUTPUT:i am a "double quoted" string inside " double quotes"
+
 *Concatenating strings with plus operators
  var ourStr="i come first." +"i come second.";
  var myStr="this is the start."+ "thgis is the end"
  console.log(myStr);
+
  *constructing variables using variable
  var myName="eldose";
 var myStr="myname is" + myName + "and i am well";
 console.log(myStr);
 OUTPUT:myname iseldoseand i am well
+
 *appending variable to string
 var someAdjective="worthwhile";
 var myStr="learning nto code is";
 var appendStr = myStr += someAdjective;
 console.log(appendStr)
 OUTPUT:learning nto code isworthwhile
+
 *finding length of the string
 var lastNameLength=0;
 var lastName="lovelace";
 lastNameLength=lastName.length;
 console.log(lastNameLength)
 OUTPUT:8
+
 *finding last chracter in a string
 var firstLetterOfLastName="";
 var lastName="Lovelace";
 firstLetterOfLastName=lastName[lastName.length -1];
 console.log(firstLetterOfLastName)
 OUTPUT:E
+
 *WORD BLANK
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
     var result="";
@@ -79,26 +85,29 @@ function wordBlanks(myNoun, myAdjective, myVerb, myAdverb){
     return result;
 }
 console.log(wordBlanks("dog","big","ran", "quickly"));
-
-
 OUTPUT:the big dog ran to the store quickly
+
 *NESTED ARRAY
 var ourArray=[["the universe",42], ["everything",1010101]];
+
 *acces array data with index
 ar myArray=[50,60,70];
 var myData=myArray[0];
 console.log(myData)
 OUTPUT: 50
+
 *modify array data with index
 var myArray=[18,64,99];
 myArray[0]=45;
 console.log(myArray)
 OUTPUT: 45, 64, 99
+
 *access multi dimentional array with index
 var myArray =[[1,2,2],[4,5,6],[7,8,9]];
 var myData=myArray[2][1];// selecting second array with data in the first index
 console.log(myData)
 OUTPUT:8
+
 *Manipulating array with push function:
 var myArray=[["john",23], ["cat",2]];
 myArray.push(["dog",3])
@@ -110,16 +119,19 @@ OUTPUT:
 ['dog', 3]
 ['dFDGDFg', 30]
 length: 4
+
 *manipulating array with pop(removing last element in the array)
 var myArray =[["john",23], ["cat",2]];
 var removedFromMyArray=myArray.pop();
 console.log(myArray)
 OUTPUT:['john', 23]
+
 *Manipulating array with shift(removing first element in the array)
 var myArray =[["john",23], ["cat",2]];
 var removedFromMyArray=myArray.shift();
 console.log(myArray)
 OUPUT:['cat', 2]
+
 *Manipulating array with unshift:(adding elements to the begining of the array)
 var myArray =[["john",23], ["cat",2]];
 myArray.shift();
@@ -127,6 +139,7 @@ myArray.unshift(["paul",35]);
 console.log(myArray)
 OUTPUT:['paul', 35]
        ['cat', 2]
+
 *Reusable code with function:
 function ourReusableFunction(){
     console.log("hai","world");
@@ -137,3 +150,10 @@ ourReusableFunction();
 OUTPUT:hai world
        hai world
        hai world.
+
+*passing values to functions with argumnts
+function ourFunctionWithArgs(a,b){
+    console.log(a-b);
+}
+ourFunctionWithArgs(10,5);
+output: 5
