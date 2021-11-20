@@ -166,4 +166,19 @@ function myLocalScope(){
 myLocalScope();
 OUTPUT:5
 
-*
+*global vs local scope in functions:
+var outerWear="tshirt";
+function myOutfit(){
+    var outerWear="sweater";
+    return outerWear;
+}console.log(myOutfit());
+console.log(outerWear);
+OUTPUT: SWEATER
+        TSHIRT
+
+*Return a value from function
+function minusSeven(num){
+    return num-7;
+}
+console.log(minusSeven(10));
+OUTPUT:3
