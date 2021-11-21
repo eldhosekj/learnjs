@@ -429,4 +429,10 @@ return answer;
 }
 console.log(seqentialSizes(1));
 OUTPUT:LOW
+*returning boolean values from functions:
+function isLess(a,b){
+    return a<b;
+}
+console.log(isLess(20, 15));
+OUTPUT:FALSE
 
