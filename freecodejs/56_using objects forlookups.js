@@ -1,4 +1,5 @@
-function phoneticLookup(){
+function phoneticLookup(val){
+    var result="";
 var lookup={
     "alpha": "adams",
     "bravo":"boston",
