@@ -276,4 +276,32 @@ function testGreaterThan(val){
 console.log(testGreaterThan(10));
 OUTPUT: 10 OR UNDER
 
+*Greater than or equal to operator
+function testGreaterOrEqual(val){
+    if(val){
+        return("20 or over");
+    }
+    if (val>=10){
+        return"10 or above";
+    }
+    return"less tha 10";
+
+    }
+console.log(testGreaterOrEqual(10));
+OUTPUT:20 or over
+*Less than operator
+function testLessThan(val){
+    if(val<25){
+        return("under25");
+    }
+    if (val<55){
+        return"under 55";
+    }
+    return"55 or over";
+
+    }
+console.log(testLessThan(10));
+OUTPUT:under25
+
+
 
