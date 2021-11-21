@@ -324,6 +324,42 @@ console.log(testLessThanOrEqual(10));
     return"no";
 }
 testLogicalAnd(10);
+*chaining if else
+function testSize(num){
+    if(num<5){
+        return "tiny"
+    }else if(num<10){
+        return"small"
+    }else if(num<15){
+        return"medium"
+    }else if(num<20){
+        return"large"
+    }else{
+return "huge"
+    }
+    }
+console.log(testSize(7));
+OUTPUT: SMALL
 
-
+*golf code:
+var names=["hole in one", "eagle","birdie", "par", "bogey","double bogey",]
+function golfScore(par, strokes){
+    if(strokes==1){
+        return names[0]
+    }else if (strokes<=par-2){
+        return name[1]
+    }else if (strokes<=par-1){
+        return names[2]
+    }else if (strokes==par){
+        return names[3]
+    }else if (strokes==par+1){
+        return names[4]
+    }else if (strokes==par+2){
+        return names[5]
+    }else if (strokes==par +3){
+        return names[6]
+    }
+    }
+console.log(golfScore(5,4));
+OUTPUT:birdie
 
