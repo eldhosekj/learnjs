@@ -362,4 +362,25 @@ function golfScore(par, strokes){
     }
 console.log(golfScore(5,4));
 OUTPUT:birdie
+*switch statement:
+function caseInSwitch(val){
+    var answer="";
+    switch(val){
+    case 1:
+        answer="alpha";
+        break;
+    case 2:
+            answer="beta";
+            break; 
+    case 3:
+        answer="gama";
+        break;
+     case 4:
+        answer="delta";
+        break; 
+}
+return answer;
+}
+console.log(caseInSwitch(1));
+OUTPUT:ALPHA
 
