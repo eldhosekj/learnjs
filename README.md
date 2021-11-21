@@ -316,6 +316,14 @@ function testLessThanOrEqual(val){
 console.log(testLessThanOrEqual(10));
 
  output:smaller than or equal to 12
+ *AND operator:
+ function testLogicalAnd(val){
+    if(val<=50 && val>=25){
+        return"yes";
+    }
+    return"no";
+}
+testLogicalAnd(10);
 
 
 
